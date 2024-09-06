@@ -10,7 +10,7 @@ Como funciona?
 
 Digite o nome do dorama: Basta digitar o nome do dorama que você está procurando na barra de pesquisa.
 Clique em "Pesquisar": E pronto! A mágica acontece. O site vasculha uma enorme base de dados de doramas e te mostra todos os resultados que combinam com a sua pesquisa.
-Explore os resultados: Cada resultado te leva para a página oficial do dorama, para que você possa assistir à vontade.
+Explore os resultados: Cada resultado te leva para a página oficial do Telegran, para que você possa assistir à vontade.
 Quais tecnologias foram usadas?
 
 HTML: A estrutura básica do site. É como a espinha dorsal, dando forma a tudo.
