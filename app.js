@@ -1,9 +1,7 @@
 function pesquisar() {
       // Obtém a seção onde os resultados serão exibidos
       let section = document.getElementById("resultados-pesquisa");
-      console.log(section); // Loga a seção no console para verificação
-    
-      // Inicializa uma string vazia para armazenar os resultados
+             // Inicializa uma string vazia para armazenar os resultados
       let resultados = "";
     
       // Itera sobre os dados e constrói o HTML para cada resultado
@@ -26,6 +24,5 @@ function pesquisar() {
       }
     section.innerHTML = resultados
 
-  
 
-
+}
