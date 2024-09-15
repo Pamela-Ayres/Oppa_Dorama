@@ -4,15 +4,18 @@
 /* Estiliza o corpo da página */
 body {
     font-family: "Chakra Petch", sans-serif; /* Define a fonte padrão */
-    background-image: url("plano de fundo.jpeg"); /* Cor de fundo da página */ 
-    display: flex; /* Usa Flexbox para layout */
+    background-image: url(./plano\ de\ fundo.jpg); /* Cor de fundo da página */ 
+    background-size:cover; /* Mantém as proporções da imagem */
+    background-repeat: no-repeat;
+    background-position: center; /* Centraliza a imagem horizontalmente e verticalmente */
+    display:flex; /* Usa Flexbox para layout */
     flex-direction: column; /* Alinha os itens na vertical */
     align-items: center; /* Centraliza os itens horizontalmente */
     justify-content: center; /* Centraliza os itens verticalmente */
     height: 100vh; /* Preenche a altura total da viewport */
-    margin: 0; /* Remove a margem padrão */
+    margin:0; /* Remove a margem padrão */
     padding: 0; /* Remove o padding padrão */
-}
+  }
 
 /* Estiliza os títulos h1 */
 h1 {
@@ -108,8 +111,8 @@ section button:hover {
 
 /* Estiliza o rodapé da página */
 footer {
-    background-color: #F5F7F8; /* Cor de fundo do rodapé */
-    color: #45474B; /* Cor do texto */
+    background-color: white; /* Cor de fundo do rodapé */
+    color: #45474B; /* Cor do texto */ /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     padding: 0; /* Espaçamento interno */
     width: 100%; /* Largura total da página */
@@ -121,16 +124,15 @@ footer {
     display: flex;
   }
   .imagem {
-    width: 10%;
-    height: 8%;
+    width: 30%;
+    height: 15%;
     border-radius: 0.6rem; /* Borda arredondada */
   }
   .texto {
     width: 100%;
     text-align:center;
-   
-  }
-  
+
+}
 /* arquivo.css */
 p {
     font-size: 16px;
@@ -195,10 +197,11 @@ h2 {
 
     footer {
         font-size: 0.9rem; /* Tamanho da fonte do rodapé em telas pequenas */
+     
     }
 }
 
 img {
-    max-width: 10%;
+    max-width: 10px;
     border-radius: 10px;
 }
