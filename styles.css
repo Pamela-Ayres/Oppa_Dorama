@@ -124,13 +124,14 @@ footer {
     display: flex;
   }
   .imagem {
-    width: 30%;
-    height: 15%;
-    border-radius: 0.6rem; /* Borda arredondada */
+    width: 15%;
+    height: 8%;
+   
   }
   .texto {
     width: 100%;
     text-align:center;
+    border-radius: 0.7rem; /* Borda arredondada */
 
 }
 /* arquivo.css */
@@ -202,6 +203,6 @@ h2 {
 }
 
 img {
-    max-width: 10px;
-    border-radius: 10px;
+    max-width:100px;
+    border-radius: 15px;
 }

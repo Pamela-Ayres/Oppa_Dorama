@@ -21,7 +21,14 @@ let dados = [
             sinopse: "Com uma mistura de humor e romance, 'O que houve com a secretária Kim' conta a história de um executivo egocêntrico que se vê perdido após a decisão de sua dedicada secretária em deixar o emprego. A comédia romântica sul-coreana conquistou o público com suas situações hilárias, diálogos inteligentes e a química irresistível entre os protagonistas.",
             link: "https://t.me/+di_GAGYDABoyYzNh" ,
             tags:"kin executvo secrtaria secretaria"
-            }
+            },
+            {
+                titulo: "Amor entre fada e demônio",
+                imagem:"capa Amor entre fada e demônio.jpeg",
+                sinopse: "Amor entre Fada e Demônio conta a história de Xiao Lanhua, uma fada gentil, e Dongfang Qingcang, um poderoso demônio. Libertado acidentalmente por ela, Qingcang inicialmente planeja sacrificar Xiao Lanhua, mas acaba se apegando à fada. A relação improvável entre eles, marcada por desafios e perigos, floresce em um amor intenso, desafiando as leis da natureza e as forças do destino.",
+                link: "https://t.me/amorentrefadaedemoniobynoona" ,
+                tags: "fada demonio demônio amor"
+                },
 
 ] ; 
 
