@@ -70,6 +70,7 @@ section button:hover {
     margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
     padding: 1rem; /* Espaçamento interno */
     border-radius: 0.6rem; /* Borda arredondada */
+   
 }
 
 /* Estiliza cada item de resultado */
@@ -205,4 +206,21 @@ h2 {
 img {
     max-width:100px;
     border-radius: 15px;
+}
+#radio-ost {
+    background-image: url('radio.png'); /* Replace 'radio.png' with the actual path to your image */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display:flexbox;
+    justify-content:center;
+    align-items:center;
+    width: 300px; /* Define button width */
+    height: 150px; /* Define button height */
+    background-color: rgba(255, 255, 255, 0); /* Button background color */
+    border-color: transparent;
+    position: absolute; /* Position the button absolutely */
+    top:71%; /* Ajuste para a posição vertical desejada */
+    left: 50%; /* Ajuste para a posição horizontal desejada */
+    transform: translate(-50%, -50%); /* Centraliza o botão */
 }

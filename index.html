@@ -1,29 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Oppa Doramas</title>
-    </head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Oppa Doramas</title>
+</head>
+
 <body>
-    <header>
-<h1>Oppa, Onde Está Minha Pipoca?</h1>
-    </header>
-    <main>
-        <section>
-        <input type="text" placeholder="Digite nome do seu dorama" id="campo-pesquisa">
-        <button onclick="pesquisar()">Pesquisar</button>
+  <header>
+    <h1>Oppa, Onde Está Minha Pipoca?</h1>
+  </header>
+
+  <main>
+    <section>
+      <input type="text" placeholder="Digite nome do seu dorama" id="campo-pesquisa">
+      <button onclick="pesquisar()">Pesquisar</button>
     </section>
     <section class="resultados-pesquisa" id="resultados-pesquisa">
-    </section>  
-    </main>
-    <footer>
-        <h6>2024 Oppa Doramas. Todos os direitos reservados</h6>
-        
-    </footer>
-    <script src="dados.js"></script>
-    <script src="app.js"></script>
-        
-    </body>
+    </section>
+  </main>
+
+  <main>
+    <button id="radio-ost" title="Clique aqui para abrir a playlist das melhores OST Spotify"></button>
+  </main>
+
+  <footer>
+    <h6>2024 Oppa Doramas. Todos os direitos reservados</h6>
+  </footer>
+
+  <script src="dados.js"></script>
+  <script src="app.js"></script>
+  <script>
+    const radioOstButton = document.getElementById('radio-ost');
+
+    radioOstButton.addEventListener('click', () => {
+      // Improved approach: Check if Spotify is available
+      if (typeof window.open === 'function') {
+        window.open('https://open.spotify.com/playlist/3S8c2IURd9CRtiH4qGHHA6?si=762b1a44cf1d4031', '_blank'); // Open in new tab
+      } else {
+        console.error('Spotify cannot be opened in this context (window.open is not a function).');
+        // Optionally: Provide alternative instructions (e.g., open the link manually)
+      }
+    });
+
+    // Add hover functionality for message
+    radioOstButton.addEventListener('mouseover', () => {
+      radioOstButton.textContent = ''; // Change button text on hover
+    });
+
+    radioOstButton.addEventListener('mouseout', () => {
+      radioOstButton.textContent = ''; // Revert button text on mouseout
+    });
+  </script>
+</body>
+
 </html>
