@@ -112,7 +112,7 @@ section button:hover {
 
 /* Estiliza o rodapé da página */
 footer {
-    background-color: white; /* Cor de fundo do rodapé */
+    background-color: rgba(255, 255, 255, 0); /* Cor de fundo do rodapé */
     color: #45474B; /* Cor do texto */ /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     padding: 0; /* Espaçamento interno */
@@ -215,12 +215,12 @@ img {
     display:flexbox;
     justify-content:center;
     align-items:center;
-    width: 300px; /* Define button width */
-    height: 150px; /* Define button height */
+    width: 500px; /* Define button width */
+    height: 300px; /* Define button height */
     background-color: rgba(255, 255, 255, 0); /* Button background color */
     border-color: transparent;
     position: absolute; /* Position the button absolutely */
-    top:71%; /* Ajuste para a posição vertical desejada */
+    top:68%; /* Ajuste para a posição vertical desejada */
     left: 50%; /* Ajuste para a posição horizontal desejada */
     transform: translate(-50%, -50%); /* Centraliza o botão */
 }
